@@ -1,0 +1,17 @@
+POST https://localhost:7095/api/platforms
+Content-Type: application/json
+
+{
+  "name": "Docker"
+}
+
+###
+
+#GET  https://localhost:7095/api/Platforms/platform:ab714502-c841-4c11-aa61-f1dd367adb4b
+GET https://localhost:7095/api/Platforms/platform:552d92fb-120c-45b3-9c10-cd4f74431deb
+
+###
+
+GET https://localhost:7095/api/Platforms
+
+###
